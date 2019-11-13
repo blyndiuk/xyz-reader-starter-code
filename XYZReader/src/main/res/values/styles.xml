@@ -17,12 +17,46 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <style name="Theme.Bacon" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Bacon.Toolbar">
+        <item name="actionBarSize">@dimen/toolbar_height</item>
+        <item name="elevation">@dimen/elevation_1x</item>
+    </style>
+
+    <style name="CardTitleStyle" parent= "TextAppearance.AppCompat.Subhead">
+        <item name="android:paddingStart">@dimen/average_padding</item>
+        <item name="android:paddingEnd">@dimen/average_padding</item>
+        <item name="android:paddingTop">@dimen/small_padding</item>
+        <item name="android:paddingBottom">@dimen/small_padding</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">@dimen/card_title_text_size</item>
+    </style>
+
+    <style name="CardSubtitleStyle" parent= "TextAppearance.AppCompat.Body1">
+        <item name="android:paddingStart">@dimen/average_padding</item>
+        <item name="android:paddingEnd">@dimen/average_padding</item>
+        <item name="android:paddingBottom">@dimen/average_padding</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/card_date_text_size</item>
+    </style>
+
+    <style name="DetailTextStyle" parent= "TextAppearance.AppCompat.Body1">
+        <item name="android:paddingTop">@dimen/big_padding</item>
+        <item name="android:paddingStart">@dimen/big_padding</item>
+        <item name="android:paddingEnd">@dimen/average_padding</item>
+        <item name="android:paddingBottom">@dimen/very_big_padding</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
     </style>
 
 </resources>

@@ -2,10 +2,35 @@
     <!-- detail -->
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
+    <dimen name="main_text_size">16sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="card_title_text_size">16sp</dimen>
+    <dimen name="card_date_text_size">14sp</dimen>
+
 
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <dimen name="small_elevation">4dp</dimen>
+    <dimen name="average_elevation">6dp</dimen>
+    <dimen name="big_elevation">8dp</dimen>
+
+    <dimen name="elevation_1x">4dp</dimen>
+    <dimen name="elevation_1p5x">6dp</dimen>
+    <dimen name="elevation_2x">8dp</dimen>
+    <dimen name="elevation_3x">12dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="average_margin">12dp</dimen>
+    <dimen name="big_margin">16dp</dimen>
+    <dimen name="very_big_margin">24dp</dimen>
+
+    <dimen name="small_padding">4dp</dimen>
+    <dimen name="average_padding">16dp</dimen>
+    <dimen name="big_padding">20dp</dimen>
+    <dimen name="very_big_padding">24dp</dimen>
 </resources>
