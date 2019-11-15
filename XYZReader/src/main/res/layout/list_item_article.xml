@@ -1,5 +1,4 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/small_margin"
@@ -17,8 +16,8 @@
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            android:background="@color/photo_placeholder" />
+            android:background="@color/photo_placeholder"
+            android:scaleType="centerCrop" />
 
         <TextView
             android:id="@+id/article_title"
@@ -26,17 +25,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="4"
-            android:text="Here is going to be the title"/>
+            android:maxLines="4" />
 
         <TextView
             android:id="@+id/article_subtitle"
             style="@style/CardSubtitleStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="2"
             android:ellipsize="end"
-            android:text="Jan 12, 1989 \n by E. Ellis"/>
+            android:maxLines="2" />
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

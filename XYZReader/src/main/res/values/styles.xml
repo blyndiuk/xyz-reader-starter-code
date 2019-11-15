@@ -33,7 +33,7 @@
         <item name="elevation">@dimen/elevation_1x</item>
     </style>
 
-    <style name="CardTitleStyle" parent= "TextAppearance.AppCompat.Subhead">
+    <style name="CardTitleStyle" parent="TextAppearance.AppCompat.Subhead">
         <item name="android:paddingStart">@dimen/average_padding</item>
         <item name="android:paddingEnd">@dimen/average_padding</item>
         <item name="android:paddingTop">@dimen/small_padding</item>
@@ -42,7 +42,7 @@
         <item name="android:textSize">@dimen/card_title_text_size</item>
     </style>
 
-    <style name="CardSubtitleStyle" parent= "TextAppearance.AppCompat.Body1">
+    <style name="CardSubtitleStyle" parent="TextAppearance.AppCompat.Body1">
         <item name="android:paddingStart">@dimen/average_padding</item>
         <item name="android:paddingEnd">@dimen/average_padding</item>
         <item name="android:paddingBottom">@dimen/average_padding</item>
@@ -50,7 +50,7 @@
         <item name="android:textSize">@dimen/card_detail_text_size</item>
     </style>
 
-    <style name="ArticleTextStyle" parent= "TextAppearance.AppCompat.Body1">
+    <style name="ArticleTextStyle" parent="TextAppearance.AppCompat.Body1">
         <item name="android:paddingTop">@dimen/main_article_padding</item>
         <item name="android:paddingStart">@dimen/main_article_padding</item>
         <item name="android:paddingEnd">@dimen/main_article_padding</item>
