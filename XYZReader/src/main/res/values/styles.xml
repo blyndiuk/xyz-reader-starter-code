@@ -47,16 +47,17 @@
         <item name="android:paddingEnd">@dimen/average_padding</item>
         <item name="android:paddingBottom">@dimen/average_padding</item>
         <item name="android:textColor">@color/text_color</item>
-        <item name="android:textSize">@dimen/card_date_text_size</item>
+        <item name="android:textSize">@dimen/card_detail_text_size</item>
     </style>
 
-    <style name="DetailTextStyle" parent= "TextAppearance.AppCompat.Body1">
-        <item name="android:paddingTop">@dimen/big_padding</item>
-        <item name="android:paddingStart">@dimen/big_padding</item>
-        <item name="android:paddingEnd">@dimen/average_padding</item>
-        <item name="android:paddingBottom">@dimen/very_big_padding</item>
+    <style name="ArticleTextStyle" parent= "TextAppearance.AppCompat.Body1">
+        <item name="android:paddingTop">@dimen/main_article_padding</item>
+        <item name="android:paddingStart">@dimen/main_article_padding</item>
+        <item name="android:paddingEnd">@dimen/main_article_padding</item>
+        <item name="android:paddingBottom">@dimen/detail_body_bottom_margin</item>
         <item name="android:textColor">@color/text_color</item>
-        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:textSize">@dimen/article_text_size</item>
+        <item name="android:elevation">@dimen/elevation_article</item>
     </style>
 
 </resources>
