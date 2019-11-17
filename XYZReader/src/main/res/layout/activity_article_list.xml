@@ -31,7 +31,7 @@
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:elevation="4dp"
+        android:stateListAnimator="@animator/appbar_always_elevated"
         android:fitsSystemWindows="true">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -42,7 +42,8 @@
             app:expandedTitleMarginEnd="64dp"
             app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:title="@string/app_name">
+            app:title="@string/app_name"
+            >
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"

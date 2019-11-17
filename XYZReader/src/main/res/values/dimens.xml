@@ -7,18 +7,14 @@
     <dimen name="card_title_text_size">20sp</dimen>
     <dimen name="card_detail_text_size">16sp</dimen>
 
-    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
-
-    <dimen name="elevation_1x">4dp</dimen>
-    <dimen name="elevation_1p5x">6dp</dimen>
-    <dimen name="elevation_2x">8dp</dimen>
-    <dimen name="elevation_3x">12dp</dimen>
-
-    <dimen name="elevation_article">4dp</dimen>
-    <dimen name="elevation_meta_bar">6dp</dimen>
+    <dimen name="elevation_app_bar">4dp</dimen>
+    <dimen name="elevation_article">2dp</dimen>
+    <dimen name="elevation_meta_bar">4dp</dimen>
+    <dimen name="elevation_card">2dp</dimen>
 
     <dimen name="toolbar_height">56dp</dimen>
 
