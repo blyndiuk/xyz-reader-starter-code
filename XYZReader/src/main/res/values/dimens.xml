@@ -9,12 +9,12 @@
 
     <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
-    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="elevation_app_bar">4dp</dimen>
     <dimen name="elevation_article">2dp</dimen>
     <dimen name="elevation_meta_bar">4dp</dimen>
-    <dimen name="elevation_card">2dp</dimen>
+    <dimen name="elevation_card">1dp</dimen>
 
     <dimen name="toolbar_height">56dp</dimen>
 
